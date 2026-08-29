@@ -1,0 +1,58 @@
+import type { VideoTutorial } from '@/types';
+
+export const videoTutorials: VideoTutorial[] = [
+  {
+    id: 'vt1',
+    title: 'Full Body HIIT Workout',
+    category: 'Cardio',
+    duration: '20 min',
+    thumbnail: 'https://images.pexels.com/photos/4720832/pexels-photo-4720832.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'A high-intensity interval training session that targets every major muscle group. Perfect for burning calories and building endurance.',
+    level: 'Intermediate',
+  },
+  {
+    id: 'vt2',
+    title: 'Morning Yoga Flow',
+    category: 'Flexibility',
+    duration: '15 min',
+    thumbnail: 'https://images.pexels.com/photos/3823076/pexels-photo-3823076.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'Start your day with this gentle yoga flow. Improve flexibility, balance, and mental clarity with guided poses.',
+    level: 'Beginner',
+  },
+  {
+    id: 'vt3',
+    title: 'Strength Training Basics',
+    category: 'Strength',
+    duration: '25 min',
+    thumbnail: 'https://images.pexels.com/photos/3888405/pexels-photo-3888405.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'Learn proper form for fundamental strength exercises including squats, deadlifts, and bench press with step-by-step coaching.',
+    level: 'Beginner',
+  },
+  {
+    id: 'vt4',
+    title: 'Kettlebell Power Circuit',
+    category: 'Strength',
+    duration: '18 min',
+    thumbnail: 'https://images.pexels.com/photos/3766211/pexels-photo-3766211.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'Build explosive power and functional strength with this kettlebell circuit. Targets core, shoulders, and posterior chain.',
+    level: 'Advanced',
+  },
+  {
+    id: 'vt5',
+    title: 'Dynamic Stretching Routine',
+    category: 'Flexibility',
+    duration: '12 min',
+    thumbnail: 'https://images.pexels.com/photos/6388452/pexels-photo-6388452.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'Improve your range of motion and prevent injuries with this full-body dynamic stretching routine. Great for warm-ups.',
+    level: 'Beginner',
+  },
+  {
+    id: 'vt6',
+    title: 'Meditation for Recovery',
+    category: 'Wellness',
+    duration: '10 min',
+    thumbnail: 'https://images.pexels.com/photos/4971068/pexels-photo-4971068.jpeg?auto=compress&cs=tinysrgb&w=800',
+    description: 'Guided meditation to support muscle recovery and mental wellbeing. Reduce stress hormones and improve sleep quality.',
+    level: 'Beginner',
+  },
+];
